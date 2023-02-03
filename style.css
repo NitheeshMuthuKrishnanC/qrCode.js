@@ -1,0 +1,86 @@
+:root {
+    --baseColor: #606468;   
+}
+
+.grid {
+    inline-size: 94%;
+    margin-inline: auto;
+    max-inline-size: 19rem;
+    display:grid;
+}
+h1{
+    font-weight: bold;
+}
+html {
+    box-sizing: border-box;
+    font-size: large;
+}
+body {
+    background-color: #B9F3FC;
+    color: #6096B4;
+    margin: 0;
+    min-block-size: 100vh;
+    display: grid;
+    place-items: center;
+}
+input {
+    background-image: none;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    transition: background-color 0.3s;
+}
+textarea {
+    background-image: none;
+    border: 1;
+    color: black;
+    font: inherit;
+    margin: 1;
+    outline: 2;
+    padding: 0;
+    transition: background-color 0.3s;
+}
+
+select,option {
+    background-image: none;
+    border: 1;
+    color: black;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    transition: background-color 0.3s;
+}
+#gen{
+    color: black;
+    background-color: #FFEA20;
+    font-size: medium;
+    font-weight: bold;
+}
+#nitheesh{
+    font-weight: bold;
+}
+
+
+
+#qrtext,#size{
+    background-color: white;
+}
+input[type="submit"] {
+    cursor: pointer;
+}
+
+textarea,
+select,
+option,
+input[type="submit"] {
+    inline-size: 100%;
+}
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
